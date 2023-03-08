@@ -5,6 +5,21 @@
   color: #797779;
 }
 
+.img {
+  display: block;
+  position: fixed;
+  width: 40vw;
+  height: 100%;
+  background-image: url("./Assets/Plants.jpg");
+  background-size: cover;
+  border-right: 5px solid;
+}
+
+main {
+  margin-left: 25vw;
+  height: 100%;
+}
+
 .header,
 .user_form,
 .user_name,
@@ -21,6 +36,11 @@
 .user_form {
   flex-direction: column;
 }
+
+.header_text {
+  max-width: 50%;
+}
+
 .user_form {
   width: 50%;
   height: 50%;
