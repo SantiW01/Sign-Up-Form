@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+:root {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #c9e3db;
+  color: #797779;
+}
+
+.header,
+.user_form,
+.user_name,
+.user_information,
+.user_confirmation,
+.user_form,
+.logIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header,
+.user_form {
+  flex-direction: column;
+}
+.user_form {
+  width: 50%;
+  height: 50%;
+  background-color: #6fb59f;
+  border: 1px solid #000;
+  box-shadow: -5px 5px 6px rgb(103, 119, 119);
+  margin: 10px;
+  position: relative;
+  left: 25%;
+}
+
+.user_name,
+.user_information,
+.user_confirmation {
+  flex-direction: row;
+  gap: 5em;
+  margin: 13px;
+  font-weight: bold;
+}
+
+input,
+label {
+  display: block;
+}
+
+fieldset {
+  border: 0;
+}
+
+.user_name_first {
+  position: relative;
+  top: 10px;
+}
+
+.btn-create_account {
+  position: relative;
+  left: 25.5%;
+  padding: 15px;
+  border-radius: 12%;
+  background-color: #6fb59f;
+  color: #cee4f3;
+  font-size: 15px;
+}
+
+.logIn {
+  position: relative;
+  right: 18%;
+}
