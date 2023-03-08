@@ -26,11 +26,18 @@
             type="text"
             name="user_name_first"
             id="form--user_first_name"
+            minlength="3"
+            required
           />
         </div>
         <div style="float: left; margin-right: 20px">
           <label for="user_name_last">Last name</label>
-          <input type="text" name="user_name_last" id="form--user_last_name" />
+          <input
+            type="text"
+            name="user_name_last"
+            id="form--user_last_name"
+            minlength="3"
+          />
         </div>
       </fieldset>
       <fieldset class="user_information">
@@ -44,6 +51,7 @@
             type="tel"
             name="user_phonenumber"
             id="form--user_phoneNumber"
+            required
           />
         </div>
       </fieldset>
@@ -54,6 +62,8 @@
             type="password"
             name="user_password"
             id="form--user_password"
+            minlength="8"
+            required
           />
         </div>
         <div style="float: left; margin-right: 20px">
@@ -62,6 +72,8 @@
             type="password"
             name="user_repeatPassword"
             id="form--user_repeatPasssword"
+            minlength="8"
+            required
           />
         </div>
       </fieldset>

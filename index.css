@@ -69,3 +69,16 @@ fieldset {
   position: relative;
   right: 18%;
 }
+
+input:enabled {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid black;
+  border-radius: 5px;
+}
+input:invalid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid red;
+  border-radius: 5px;
+}
